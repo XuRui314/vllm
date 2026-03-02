@@ -93,6 +93,8 @@ _TEXT_GENERATION_MODELS = {
     "PhiMoEForCausalLM": ("phimoe", "PhiMoEForCausalLM"),
     "QWenLMHeadModel": ("qwen", "QWenLMHeadModel"),
     "Qwen2ForCausalLM": ("qwen2", "Qwen2ForCausalLM"),
+    ##modify: add compression LLM model
+    "XYQForCausalLM": ("xyq", "XYQForCausalLM"),
     "Qwen2MoeForCausalLM": ("qwen2_moe", "Qwen2MoeForCausalLM"),
     "RWForCausalLM": ("falcon", "FalconForCausalLM"),
     "StableLMEpochForCausalLM": ("stablelm", "StablelmForCausalLM"),
@@ -183,6 +185,8 @@ _MULTIMODAL_MODELS = {
     # [Encoder-decoder]
     "MllamaForConditionalGeneration": ("mllama", "MllamaForConditionalGeneration"),  # noqa: E501
     "WhisperForConditionalGeneration": ("whisper", "WhisperForConditionalGeneration"),  # noqa: E501
+    ##modify: add compression LLM model
+    "XYQForConditionalGeneration": ("xyqvl", "XYQForConditionalGeneration")
 }
 
 _SPECULATIVE_DECODING_MODELS = {
